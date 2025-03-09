@@ -5,7 +5,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 retry(3) {
-                    git branch: 'main', url: 'https://github.com/sanjula77/Note-app-ec2.git'
+                    git branch: 'main', url: 'https://github.com/sanjula77/CI-CD-with-Jenkins-and-Docker.git'
                 }
             }
         }
